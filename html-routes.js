@@ -16,12 +16,12 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname, './index.html'));
   });
 
   //activates when theres no matching route found
   app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname, './index.html'));
   });
 
 

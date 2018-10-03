@@ -4,10 +4,10 @@
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
 
-const todoItems = require('../data/itemList.js');
+const todoItems = require('./itemList.js');
 
 // Sample table is a dummy table for validation purposes
-const sampleItem = require('../data/sampleItem.json');
+const sampleItem = require('./sampleItem.json');
 
 
 // ===============================================================================
